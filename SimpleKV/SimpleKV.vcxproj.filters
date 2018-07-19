@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{b79a9884-946f-49d4-95c1-3d7bbf2172ae}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{1479c502-84ce-4273-957c-a3b4a6c4691a}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{9b95fca0-3764-4762-9425-f8995f3b9377}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Make files">
+      <UniqueIdentifier>{bbd7743a-34bb-4ab5-b046-5f0fe9d26003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{7ab6bb31-fbf4-4556-b2c7-ff775e8ea2dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\KV">
+      <UniqueIdentifier>{1c915d28-0b62-47d9-a119-aadc39726ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\ThreadPool">
+      <UniqueIdentifier>{dda6771f-aeb7-4765-b79d-c90d2e561e4f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SimpleKV.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <None Include="debug.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="release.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="SimpleKV-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="SimpleKV-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Server.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTask.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtocolAnaylze.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="KVCache.h">
+      <Filter>Header files\KV</Filter>
+    </ClInclude>
+    <ClInclude Include="KVIndex.h">
+      <Filter>Header files\KV</Filter>
+    </ClInclude>
+    <ClInclude Include="KVRecord.h">
+      <Filter>Header files\KV</Filter>
+    </ClInclude>
+    <ClInclude Include="KVStore.h">
+      <Filter>Header files\KV</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>Header files\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Header files\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Worker.h">
+      <Filter>Header files\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkQueue.h">
+      <Filter>Header files\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkThreadPool.h">
+      <Filter>Header files\ThreadPool</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

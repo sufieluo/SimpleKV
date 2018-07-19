@@ -1,0 +1,12 @@
+﻿生成启动时间为 7/19/2018 9:53:01 PM。
+     1>项目“D:\VSProject\SimpleKV\SimpleKV\SimpleKV.vcxproj”在节点 2 上(Build 个目标)。
+     1>Build:
+         "C:\Program Files (x86)\Sysprogs\VisualGDB\VisualGDB.exe" /build "D:\VSProject\SimpleKV\SimpleKV\SimpleKV.vcxproj" "/solution:D:\VSProject\SimpleKV\SimpleKV.sln"  "/config:Debug" "/platform:Win32"
+         VisualGDB: No file changes detected. If you believe it's a mistake, please clean the project and build it again.
+         VisualGDB: Run "make  CONFIG=Debug" in directory "/tmp/VisualGDB/d/VSProject/SimpleKV/SimpleKV" on ubuntu@192.168.58.135 (SSH)
+         make: Nothing to be done for `all'.
+     1>已完成生成项目“D:\VSProject\SimpleKV\SimpleKV\SimpleKV.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.55
